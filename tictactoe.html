@@ -1,0 +1,90 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="design.css" />
+  </head>
+  <body>
+    <h1>Mini-Max Experiment</h1>
+    <div class="main-content">
+      <div class="main-text">
+        <b>'Royal Game of Ur'<br />Mini-Max Intergration</b>
+        <h2>Introduction</h2>
+        <h3>What is this?</h3>
+        <p>
+          This project was an attempt to implement Minimax into the "Royal Game
+          of Ur", a two-player strategy race board game that was played during
+          the early third millennium BC in ancient Mesopotamia.
+        </p>
+        <h3>Why?</h3>
+        <p>
+          The inspiration for this project was created by watching the video
+          <a href="https://www.youtube.com/watch?v=WZskjLq040I"
+            >'Tom Scott vs Irving Finkel: The Royal Game of Ur' by The British
+            Museum</a
+          >.<br />
+          Despite having literally no experience in making AI or the rules of an
+          ancient Mesopotamian, I decided that I could make an AI for 'Ur'.
+        </p>
+        <h3>Initial Problems</h3>
+        <p>
+          Many of the initial ideas were actually very visible. Such problems
+          included the fact that I do not fully understand the rules and that my
+          ability to create AI is sub-par due to my lack of investment into
+          researching even the most simple AI algorithms. Another glaring issue
+          was the fact that I do not even have a working version of 'Ur' nor do
+          I know how to program it.
+        </p>
+        <h3>Todo</h3>
+        <p>
+          For this project, I will need knowledge of the Minimax algorithm,
+          Royal Game of Ur and Processing.js to create the final product.
+        </p>
+        <h2>The Start of Pain</h2>
+        <h3>The Minimax Algorithm</h3>
+        <p>
+          Before I had even started programming 'Ur' I decided to learn the
+          basics of the Minimax algorithm, which caused me to stumble upon the
+          video
+          <a href="https://www.youtube.com/watch?v=trKjYdBASyQ"
+            >'Coding Challenge 154: Tic Tac Toe AI with Minimax Algorithm' by
+            'The Coding Train'</a
+          >. This video was extremely useful for learning how the Minimax
+          algorithm worked while also providing an example of its implementation
+          into a simple competitive game.<br />
+        </p>
+        <h2>How It Works</h2>
+        <p>
+          As a disclaimer, I am not an expert. In fact, I only understand 40% of
+          the Minimax algorithm as of writing so do not rely on me for
+          information on how the Minimax algorithm functions.<br />
+          As I understand it the program iterates through all possible solutions
+          at that moment in time of which the program then assigns each outcome
+          with a specific score. For example, in Noughts and Crosses, a winning
+          move will be assigned a score of 1, a tie will be a score of 0 and a
+          loss will be a score of -1. The program will then pursue an outcome
+          with the score of one and only pursuing an outcome with a score of
+          zero when a victory is impossible. When implemented in a simple game
+          like Noughts and Crosses it makes the game impossible to win for the
+          human, as the algorithm only allows for the human to achieve a loss or
+          a tie.
+        </p>
+        <h2>Noughts And Crosses</h2>
+        <p>
+          After a brief hour of <strike>copying the code</strike> following the
+          tutorial, I was left with a working version of Noughts and Crosses
+          which included the Minimax algorithm. Unfortunately, the browser I was
+          using decided to crash causing the online p5.js editor to delete all
+          code. This forced me to spend another hour writing the code for
+          Noughts and Crosses.<br />
+          After two hours of <strike>stealing code</strike> following the
+          tutorial, I finally had another working version of Noughts and
+          Crosses. The working version can be seen below.
+        </p>
+        <div class="nought-holder" id="nought-holder"></div>
+        <br /><br /><br />
+      </div>
+    </div>
+  </body>
+</html>
+
+<script src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.js"></script>
+<script src="./minmaxy.js"></script>

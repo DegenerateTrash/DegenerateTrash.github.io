@@ -1,0 +1,43 @@
+body {
+  background-color: rgb(5, 5, 5);
+}
+* {
+  font-family: Verdana, Geneva, sans-serif;
+}
+a {
+  color: rgb(0, 188, 212);
+}
+.main-content {
+  background-color: rgb(30, 30, 30);
+  width: 75%;
+  left: 12.5%;
+  position: absolute;
+  border-radius: 0.25rem;
+}
+.main-text {
+  color: rgb(215, 218, 220);
+  text-align: center;
+  font-size: 1rem;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  left: 0;
+}
+.main-text p {
+  line-height: 1.5;
+  text-align: left;
+}
+.main-text b {
+  color: #d7dadc;
+  font-size: 1.75rem;
+  text-decoration: underline;
+}
+.main-text h2 {
+  text-align: left;
+  text-decoration: underline;
+  font-size: 1.5rem;
+}
+.main-text h3 {
+  text-align: left;
+  text-decoration: underline;
+  font-size: 1.1rem;
+}
